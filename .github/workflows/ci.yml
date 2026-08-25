@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
       - name: Use node.JS
-        uses: actions/setpu-node@v4
+        uses: actions/setup-node@v4
         with:
               node-version: "22"
       - name: Cache Node Modules
